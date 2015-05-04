@@ -1,0 +1,18 @@
+/* line 1, ../scss/szm.scss */
+section.main .row:first-child {
+  margin-top: rem-calc(25);
+}
+
+/* line 5, ../scss/szm.scss */
+.magellan-scrollnav {
+  width: 20%;
+  left: 0;
+  top: 120px;
+  position: absolute;
+}
+/* line 10, ../scss/szm.scss */
+.magellan-scrollnav [data-magellan-expedition], .magellan-scrollnav [data-magellan-expedition-clone] {
+  width: 180px;
+  min-width: 0;
+  top: 80px;
+}
