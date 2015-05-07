@@ -1,18 +1,39 @@
 /* line 1, ../scss/szm.scss */
-section.main .row:first-child {
-  margin-top: rem-calc(25);
+section.main {
+  padding-top: rem-calc(30);
 }
 
 /* line 5, ../scss/szm.scss */
-.magellan-scrollnav {
-  width: 20%;
-  left: 0;
-  top: 120px;
-  position: absolute;
+.painting h2.image-title {
+  font-size: rem-calc(25);
+  margin-top: rem-calc(25);
+  margin-bottom: rem-calc(25);
 }
-/* line 10, ../scss/szm.scss */
-.magellan-scrollnav [data-magellan-expedition], .magellan-scrollnav [data-magellan-expedition-clone] {
-  width: 180px;
-  min-width: 0;
+
+/* line 11, ../scss/szm.scss */
+.magellan-scrollnav, .magellan-scrollnav .fixed {
+  left: 0;
   top: 80px;
+}
+/* line 14, ../scss/szm.scss */
+.magellan-scrollnav [data-magellan-expedition], .magellan-scrollnav [data-magellan-expedition-clone], .magellan-scrollnav .fixed [data-magellan-expedition], .magellan-scrollnav .fixed [data-magellan-expedition-clone] {
+  width: rem-calc(200);
+  min-width: 0;
+  position: fixed;
+  top: 80px;
+  left: 0;
+}
+/* line 22, ../scss/szm.scss */
+.magellan-scrollnav [data-magellan-expedition-clone], .magellan-scrollnav .fixed [data-magellan-expedition-clone] {
+  display: none;
+}
+
+/* line 27, ../scss/szm.scss */
+.painting .small {
+  font-size: rem-calc(15);
+}
+
+/* line 31, ../scss/szm.scss */
+.vcard ul {
+  margin-bottom: 0;
 }
